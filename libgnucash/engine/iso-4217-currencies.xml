@@ -34,9 +34,33 @@
   see iso-currencies-to-c for details and recent changes.
   Sort order by ISO codes for simpler maintenance
 -->
-
-
 <currencylist>
+<!-- "ETH" - "Ethereum"
+-->
+<currency
+  isocode="ETH"
+  fullname="Ethereum"
+  unitname="ether"
+  partname="ether"
+  namespace="ISO4217"
+  exchange-code="20001"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="E"
+/>
+<!-- "BTC" - "Bitcoin"
+-->
+<currency
+  isocode="BTC"
+  fullname="Bitcoin"
+  unitname="bitcoin"
+  partname="bitcoin"
+  namespace="ISO4217"
+  exchange-code="20002"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="₿"
+/>
 <!-- "ADF" - "Andorran Franc"
   2002-01-01 "FRF" 1  ;; = 1/1 French Franc replaced by EUR
 -->
