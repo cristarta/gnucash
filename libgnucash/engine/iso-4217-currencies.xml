@@ -44,8 +44,8 @@
   partname="ether"
   namespace="ISO4217"
   exchange-code="20001"
-  parts-per-unit="100000000000000"
-  smallest-fraction="100000000000000"
+  parts-per-unit="10000000000000"
+  smallest-fraction="10000000000000"
   local-symbol="E"
 />
 <!-- "BTC" - "Bitcoin"
@@ -57,8 +57,8 @@
   partname="bitcoin"
   namespace="ISO4217"
   exchange-code="20002"
-  parts-per-unit="100000000000000"
-  smallest-fraction="100000000000000"
+  parts-per-unit="10000000000000"
+  smallest-fraction="10000000000000"
   local-symbol="₿"
 />
 <!-- "CHSB" - "SwissBorg"
@@ -70,8 +70,8 @@
   partname="chsb"
   namespace="ISO4217"
   exchange-code="20003"
-  parts-per-unit="100000000000000"
-  smallest-fraction="100000000000000"
+  parts-per-unit="10000000000000"
+  smallest-fraction="10000000000000"
   local-symbol="₿"
 />
 <!-- "ADF" - "Andorran Franc"
