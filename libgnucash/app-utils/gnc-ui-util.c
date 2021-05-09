@@ -69,7 +69,7 @@
 static QofLogModule log_module = GNC_MOD_GUI;
 
 static gboolean auto_decimal_enabled = FALSE;
-static int auto_decimal_places = 9;    /* default, can be changed */
+static int auto_decimal_places = 15;    /* default, can be changed */
 
 static gboolean reverse_balance_inited = FALSE;
 static gboolean reverse_type[NUM_ACCOUNT_TYPES];
@@ -1451,7 +1451,7 @@ gnc_price_print_info (const gnc_commodity *curr, gboolean use_symbol)
     }
     else
     {
-        info.max_decimal_places = 8;
+        info.max_decimal_places = 15;
         info.min_decimal_places = 0;
     }
 
@@ -2062,6 +2062,18 @@ multiplier (int num_decimals)
 {
     switch (num_decimals)
     {
+    case 15:
+        return 1000000000000000;        
+    case 14:
+        return 100000000000000;        
+    case 13:
+        return 10000000000000;        
+    case 12:
+        return 1000000000000;        
+    case 11:
+        return 100000000000;        
+    case 10:
+        return 10000000000;
     case 9:
         return 1000000000;
     case 8:
