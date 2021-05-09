@@ -39,7 +39,7 @@
 -->
 <currency
   isocode="ETH"
-  fullname="Ethereum"
+  fullname="_Ethereum"
   unitname="ether"
   partname="ether"
   namespace="ISO4217"
@@ -52,7 +52,7 @@
 -->
 <currency
   isocode="BTC"
-  fullname="Bitcoin"
+  fullname="_Bitcoin"
   unitname="bitcoin"
   partname="bitcoin"
   namespace="ISO4217"
@@ -65,7 +65,7 @@
 -->
 <currency
   isocode="CHSB"
-  fullname="Swissborg"
+  fullname="_Swissborg"
   unitname="chsb"
   partname="chsb"
   namespace="ISO4217"
