@@ -69,7 +69,7 @@
 static QofLogModule log_module = GNC_MOD_GUI;
 
 static gboolean auto_decimal_enabled = FALSE;
-static int auto_decimal_places = 2;    /* default, can be changed */
+static int auto_decimal_places = 9;    /* default, can be changed */
 
 static gboolean reverse_balance_inited = FALSE;
 static gboolean reverse_type[NUM_ACCOUNT_TYPES];
@@ -1444,14 +1444,14 @@ gnc_price_print_info (const gnc_commodity *curr, gboolean use_symbol)
     if (info.commodity)
     {
         int frac = gnc_commodity_get_fraction (curr);
-        guint8 decplaces = 2;
+        guint8 decplaces = 8;
         while (frac != 1 && (frac % 10) == 0 && (frac /= 10)) ++decplaces;
         info.max_decimal_places = decplaces;
         info.min_decimal_places = decplaces;
     }
     else
     {
-        info.max_decimal_places = 6;
+        info.max_decimal_places = 8;
         info.min_decimal_places = 0;
     }
 
@@ -2062,6 +2062,8 @@ multiplier (int num_decimals)
 {
     switch (num_decimals)
     {
+    case 9:
+        return 1000000000;
     case 8:
         return 100000000;
     case 7:
@@ -2519,10 +2521,10 @@ xaccParseAmountExtended (const char * in_str, gboolean monetary,
 
         len = strlen(out_str);
 
-        if (len > 8)
+        if (len > 9)
         {
-            out_str[8] = '\0';
-            len = 8;
+            out_str[9] = '\0';
+            len = 9;
         }
 
         if (sscanf (out_str, QOF_SCANF_LLD, &fraction) < 1)
