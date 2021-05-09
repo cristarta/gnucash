@@ -35,19 +35,6 @@
   Sort order by ISO codes for simpler maintenance
 -->
 <currencylist>
-<!-- "ETH" - "Ethereum"
--->
-<currency
-  isocode="ETH"
-  fullname="_Ethereum"
-  unitname="ether"
-  partname="ether"
-  namespace="ISO4217"
-  exchange-code="20001"
-  parts-per-unit="1000000000"
-  smallest-fraction="1000000000"
-  local-symbol="E"
-/>
 <!-- "BTC" - "Bitcoin"
 -->
 <currency
@@ -56,23 +43,141 @@
   unitname="bitcoin"
   partname="bitcoin"
   namespace="ISO4217"
-  exchange-code="20002"
+  exchange-code="20001"
   parts-per-unit="1000000000"
   smallest-fraction="1000000000"
   local-symbol="₿"
 />
-<!-- "CHSB" - "SwissBorg"
+<!-- "ETH" - "Ethereum"
 -->
 <currency
-  isocode="CHSB"
-  fullname="_Swissborg"
-  unitname="chsb"
-  partname="chsb"
+  isocode="ETH"
+  fullname="_Ethereum"
+  unitname="ether"
+  partname="ether"
+  namespace="ISO4217"
+  exchange-code="20002"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="E"
+/>	
+<!-- "Enjin" - "Enjin - ERC-20"
+-->
+<currency
+  isocode="ENJ"
+  fullname="_ENJ"
+  unitname="enj"
+  partname="enj"
   namespace="ISO4217"
   exchange-code="20003"
   parts-per-unit="1000000000"
   smallest-fraction="1000000000"
-  local-symbol="₿"
+  local-symbol="enj"
+/>
+<!-- "CHSB" - "SwissBorg utility token - ERC-20"
+-->
+<currency
+  isocode="CHSB"
+  fullname="_Swissborg (ERC-20)"
+  unitname="chsb"
+  partname="chsb"
+  namespace="ISO4217"
+  exchange-code="20004"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="chsb"
+/>
+<!-- "USDC" - "USD coin - ERC-20"
+-->
+<currency
+  isocode="USDC"
+  fullname="_USDC"
+  unitname="usdc"
+  partname="usdc"
+  namespace="ISO4217"
+  exchange-code="20005"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="usdc"
+/>
+<!-- "KNC" - "Kyber network (legacy)"
+-->
+<currency
+  isocode="KNC"
+  fullname="_KNC"
+  unitname="knc"
+  partname="knc"
+  namespace="ISO4217"
+  exchange-code="20006"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="knc"
+/>
+/>
+<!-- "REN" - "Ren"
+-->
+<currency
+  isocode="REN"
+  fullname="_REN"
+  unitname="ren"
+  partname="ren"
+  namespace="ISO4217"
+  exchange-code="20007"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="ren"
+/>
+<!-- "CHZ" - "Chiliz"
+-->
+<currency
+  isocode="CHZ"
+  fullname="_CHZ"
+  unitname="chz"
+  partname="chz"
+  namespace="ISO4217"
+  exchange-code="20008"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="chz"
+/>
+<!-- "REN" - "Ren"
+-->
+<currency
+  isocode="REN"
+  fullname="_REN"
+  unitname="ren"
+  partname="ren"
+  namespace="ISO4217"
+  exchange-code="20009"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="ren"
+/>
+<!-- "SUSHI" - "Sushi"
+-->
+<currency
+  isocode="SUSHI"
+  fullname="_SUSHI"
+  unitname="sushi"
+  partname="sushi"
+  namespace="ISO4217"
+  exchange-code="200010"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="sushi"
+/>
+<!-- "UTK" - "Utrust"
+-->
+<currency
+  isocode="UTK"
+  fullname="_UTK"
+  unitname="utk"
+  partname="utk"
+  namespace="ISO4217"
+  exchange-code="20011"
+  parts-per-unit="1000000000"
+  smallest-fraction="1000000000"
+  local-symbol="utk"
 />
 <!-- "ADF" - "Andorran Franc"
   2002-01-01 "FRF" 1  ;; = 1/1 French Franc replaced by EUR
