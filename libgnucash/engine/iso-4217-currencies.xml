@@ -65,7 +65,7 @@
 -->
 <currency
   isocode="ENJ"
-  fullname="_ENJ"
+  fullname="_Enjin"
   unitname="enj"
   partname="enj"
   namespace="ISO4217"
@@ -78,7 +78,7 @@
 -->
 <currency
   isocode="CHSB"
-  fullname="_Swissborg (ERC-20)"
+  fullname="_Swissborg"
   unitname="chsb"
   partname="chsb"
   namespace="ISO4217"
@@ -91,7 +91,7 @@
 -->
 <currency
   isocode="USDC"
-  fullname="_USDC"
+  fullname="_USD coin"
   unitname="usdc"
   partname="usdc"
   namespace="ISO4217"
@@ -104,7 +104,7 @@
 -->
 <currency
   isocode="KNC"
-  fullname="_KNC"
+  fullname="_Kyber network"
   unitname="knc"
   partname="knc"
   namespace="ISO4217"
@@ -118,7 +118,7 @@
 -->
 <currency
   isocode="REN"
-  fullname="_REN"
+  fullname="_Ren"
   unitname="ren"
   partname="ren"
   namespace="ISO4217"
@@ -131,7 +131,7 @@
 -->
 <currency
   isocode="CHZ"
-  fullname="_CHZ"
+  fullname="_Chiliz"
   unitname="chz"
   partname="chz"
   namespace="ISO4217"
@@ -140,24 +140,11 @@
   smallest-fraction="1000000000"
   local-symbol="chz"
 />
-<!-- "REN" - "Ren"
--->
-<currency
-  isocode="REN"
-  fullname="_REN"
-  unitname="ren"
-  partname="ren"
-  namespace="ISO4217"
-  exchange-code="20009"
-  parts-per-unit="1000000000"
-  smallest-fraction="1000000000"
-  local-symbol="ren"
-/>
 <!-- "SUSHI" - "Sushi"
 -->
 <currency
   isocode="SUSHI"
-  fullname="_SUSHI"
+  fullname="_Sushi"
   unitname="sushi"
   partname="sushi"
   namespace="ISO4217"
@@ -170,7 +157,7 @@
 -->
 <currency
   isocode="UTK"
-  fullname="_UTK"
+  fullname="_Utrust"
   unitname="utk"
   partname="utk"
   namespace="ISO4217"
